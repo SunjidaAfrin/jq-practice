@@ -1,0 +1,73 @@
+
+.panel{
+	padding: 20px 50px;
+	background-color:teal;
+	font-size: 30px;
+	color: #ffffff;
+	text-align: center;
+	cursor: pointer;
+}
+.content{
+	padding: 20px 50px;
+	background-color: white;
+    display: none;
+	text-align: center;
+}
+#dragg{ 
+	background-color: red;
+	width: 150px; 
+	height: 150px;
+	padding: 0.5em;
+}
+#draggable {  margin: 10px 10px 10px 0;
+	width: 100px;
+	height: 100px;
+	padding: 0.5em;
+	float: left;
+	background-color: red;
+}
+#droppable { width: 150px;
+	height: 150px;
+	padding: 0.5em;
+	float: left;
+	margin: 10px; 
+	background-color: lime;}
+#resizable{
+	width: 150px;
+	height: 150px;
+	padding: 0.5em;
+	float: left;
+	margin: 10px; 
+	background-color: lime;
+	}
+#resizable h3 { text-align: center;
+		margin: 0; }
+
+#selectable .ui-selected {
+    background: #F39814;
+	color: white; }
+#selectable { 
+    margin: 0; 
+	padding: 0;
+	list-style-type: none;
+	width: 80%; }
+#selectable li { 
+	margin: 3px;
+	padding: 0.4em; 
+	font-size:16px;
+	height: 50px; }
+#sortable { 
+    background: #F39814;
+	list-style-type: none;
+            margin: 0;
+            padding: 0;
+             width: 80%; }
+  #sortable li { 
+  	margin: 0 3px 3px 3px;
+     padding: 0.4em;
+     padding-left: 1.5em;
+      font-size: 16px;
+     height: 50px; }
+  #sortable li span { 
+  	position: absolute;
+   margin-left: -1.3em; }
